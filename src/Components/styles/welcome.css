@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+body {
+  background-color: #ffffff;
+}
+:root {
+  --major-font-font:Arial, Helvetica, sans-serif;
+}
+/* navbar */
+.bg-nav{
+
+background-color: #065918;
+}
+.login-btn{
+  border: 2px solid white !important;
+  color: #ffffff !important;
+  font-size: 16px !important;
+
+}
+.main-banner{
+background-color:#065918;
+height: 100%;
+position: fixed;
+}
+#Download{
+padding-right: 200px;
+}
+#Download h1 {
+  font-family:var(--major-font-font);
+  font-weight: 500;
+  font-size: 30px;
+  color: #ffffff;
+}
+#Download .boxes_div{
+padding-top: 5px;
+align-items: center;
+justify-content: center;
+
+}
+#Download .box1{
+border: 1px solid #ffffff;
+padding: 12px 30px 12px 30px;
+font-family: "Poppins", sans-serif;
+align-items: center;
+border-radius: 25px;
+align-items: center;
+}
+#Download .box1:hover{
+ color: #353535;
+ background-color:red;
+ transition: 0.4s ease;
+  }
+#Download .box2{
+  border: 1px solid #ffffff;
+  padding: 12px 36px 12px 36px;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  border-radius: 25px;
+  align-items: center;
+  }
+  #Download .box2:hover{
+    color: #ffffff;
+    background-color:var(--onhover-color);
+    transition: 0.4s ease;
+     }
+#Download .box1  a{
+  text-decoration: none;
+  color: #ffffff;
+}
+#Download .box2  a{
+  text-decoration: none;
+  color: #ffffff;
+}
+/* Leaf in background */
+.leaf{
+  height:300px; 
+  width:300px;
+   position: absolute;
+   margin-left: 870px ;
+   margin-top: -230px;
+}
+@media only screen and (max-width: 992px) {
+  #Download{
+    padding-right: 0px;
+    }
+#Download h1 {
+  font-size: 30px;
+}
+#Download .boxes_div{
+  padding-top: 0px;  
+  }
+#Download .box1{
+  padding: 6px 15px 6px 15px;
+  }
+  #Download .box2{
+    padding: 6px 18px 6px 18px;
+    }
+.leaf{
+  display: none;
+}
+
+}

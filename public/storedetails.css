@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+  --hero_h1: #212529;
+  --disc_h: #35A777;
+  --disc_h1: #212529;
+  --font:Sans-serif;
+  --font-h: 'PT Sans', sans-serif;
+}
+*{
+  font-family:var(--font-h);
+}
+.lead {
+    font-size: small !important;
+  }
+  .pad {
+    font-size: small !important;
+  }
+  
+  .card {
+    display: inline-block;
+    border: solid 1px #fff;
+    box-shadow: 0px 5px 5px #ccc;
+  }
+  .status_look {
+    border-radius: 10px !important;
+    background-color: lightgreen !important;
+    font-size: 12px;
+    width: 50px;
+    color: green !important;
+  }
+  .bg_color {
+    background-color: #e0e0e0;
+  }
+  .store_logo{
+border: 2px solid orange ;
+border-radius: 25px;
+height: 100px;
+padding: 20px;
+  }
+  .store_page_heading_4{
+    color: var(--disc_h);
+  }
+   .h3_look {
+    font-family:var(--font);
+    font-size: 15.75px;
+    color: var(--disc_h);
+    font-weight: 700;
+    line-height: 23.625px;
+    word-wrap: 0px;
+    text-decoration:none solid rgb(72, 140, 112);
+  }
+   h3 span {
+    font-family:var(--font-h);
+    font-size: 15.75px;
+    color: var(--disc_h);
+    line-height: 23.625px;
+    word-wrap: 0px;
+    font-weight: lighter;
+    text-decoration: none solid rgb(72, 140, 112);
+  }
+
+  .store_page_heading_8{
+    color: var(--disc_h);
+    font-weight: 900;
+  }
+  .store_page_heading_8  i{
+    color: orange;
+   
+  }
+  .store_page_heading_8 span{
+    font-weight: 200;
+    color: var(--disc_h1);
+  }

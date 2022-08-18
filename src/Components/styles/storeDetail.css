@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+  --hero_h1: #212529;
+  --disc_h: #35A777;
+  --disc_h1: #212529;
+  --font:Sans-serif;
+  --font-h: 'PT Sans', sans-serif;
+}
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+#hero {
+    height: 100vh;
+    background-image:url('https://www.meridiancaresa.com/page-3/page-5/files/image_stack_img-109.jpg');
+    background-repeat: no-repeat;
+    
+  }
+  
+  #hero .container {
+    padding-top: 72px;
+  }
+  
+
+  #hero h1 {
+    font-family:var(--font);
+    margin: 0 0 10px 0;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 50px;
+    color: var(--hero_h1);
+  }
+  
+ 
+ 
+  #hero .btn-get-started { 
+    background: #ffffff;
+    border-radius: 15px !important;
+    margin-left: 150px;
+
+  }
+
+  #hero .btn-get-started img { 
+    padding: 30px 30px 30px 30px;
+   height: 150px;
+   width: 180px;
+
+  }
+  
+  .title{
+    
+  }
+  @media (max-width: 991px) {
+    #hero {
+      height: 100vh;
+      text-align: start;
+      padding-bottom: 200px;
+    }
+    #hero .btn-get-started{
+margin-left: 0px;
+    }
+  #hero h1 {
+   margin-top: 20px; 
+  
+  }      
+  }
+  
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #hero .btn-get-started img { 
+        padding: 10px 10px 10px 10px;
+       height: 100px;
+       width: 130px;
+      }
+    #hero .hero-img img {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    #hero .hero-img img {
+      width: 80%;
+    }
+    #hero .btn-get-started {
+      font-size: 16px;
+      padding: 10px 24px 11px 24px;
+    }
+  }
+  
+  @-webkit-keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  /*--------------------------------------------------------------
+# Discription Section
+--------------------------------------------------------------*/
+#disc {
+  height: 100vh;
+  /* background-image:url('https://www.meridiancaresa.com/page-3/page-5/files/image_stack_img-109.jpg'); */
+  background-repeat: no-repeat;
+  
+}
+
+#disc .container {
+  padding-top: 72px;
+}
+
+#disc h1 {
+  font-family:var(--font);
+  margin: 0 0 10px 0;
+  font-size: 21.6px;
+  font-weight: 900;
+  line-height: 32.4px;
+  color: var(--disc_h);
+}
+#disc .main_heading {
+  font-family:var(--font);
+  margin: 0 0 10px 0;
+  font-size: 30.6px;
+  color: var(--disc_h1);
+  font-weight: 900;
+  line-height: 45.9px;
+  text-decoration: none solid rgb(62, 62, 62);
+}
+#disc h3 {
+  font-family:var(--font);
+  font-size: 15.75px;
+  color: var(--disc_h);
+  font-weight: 700;
+  line-height: 23.625px;
+  word-wrap: 0px;
+  text-decoration:none solid rgb(72, 140, 112);
+}
+#disc h3 span {
+  font-family:var(--font-h);
+  font-size: 15.75px;
+  color: var(--disc_h);
+  line-height: 23.625px;
+  word-wrap: 0px;
+  font-weight: lighter;
+  text-decoration: none solid rgb(72, 140, 112);
+}
+
+
+
+#disc .btn-get-started { 
+  background: #ffffff;
+  border-radius: 15px !important;
+}
+
+#disc .btn-get-started img { 
+  padding: 30px 30px 30px 30px;
+ height: 150px;
+ width: 180px;
+
+}
+#disc .contact_links a{
+  color: var(--hero_h1);
+font-size: 18px;
+line-height: 27px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none solid rgb(33, 37, 41);
+word-spacing: 0px;
+font-weight: 900;
+}
+#disc .contact_links i{
+margin-right: 10px;
+color: orange;;
+}
+#disc .btn-find-route{
+  color: white;
+  background-color: #FFA37B;
+  padding: 12px 38px 15px 38px;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none solid rgb(33, 37, 41);
+  word-spacing: 0px;
+  font-weight: 500;
+  white-space: none;
+}
+#disc .btn-find-route:hover{
+  color: white;
+  background-color: var(--disc_h);
+   
+}
+
+.colors{
+  background-color: #35a777;
+}
+
+@media (max-width: 991px) {
+  #disc {
+    height: 100vh;
+    text-align: start;
+    padding-bottom: 200px;
+  }
+  #disc .btn-get-started{
+margin-left: 0px;
+  }
+#disc h1 {
+ margin-top: 20px; 
+
+}      
+}
+
+@media (max-width: 768px) {
+  #disc h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #disc .btn-get-started img { 
+      padding: 10px 10px 10px 10px;
+     height: 100px;
+     width: 130px;
+    }
+  #disc .disc-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  #disc .disc-img img {
+    width: 80%;
+  }
+  #disc .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
